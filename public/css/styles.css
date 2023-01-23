@@ -1,0 +1,181 @@
+.sidebar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.sidebar::-webkit-scrollbar-button {
+  width: 7px;
+  height: 7px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 0px none #ffffff;
+  border-radius: 44px;
+}
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+.sidebar::-webkit-scrollbar-thumb:active {
+  background: #343a40;
+}
+.sidebar::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+.sidebar::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+.sidebar::-webkit-scrollbar-track:active {
+  background: #fcfcfc;
+}
+.sidebar::-webkit-scrollbar-corner {
+  background: transparent;
+}
+.footer_question label{
+  font-size: 11px !important;
+}
+.btn-menu{
+  border: 1px solid #F4F6F6;
+  border-radius:3px;
+  background: #E4E8E8; 
+  margin-right: 5px !important;
+ 
+}
+
+.md-v-line {
+  position: absolute;
+  border-left: 1px solid rgba(0,0,0,.125);
+  height: 50px;
+  top:0px;
+  left:54px;
+  }
+#menu-carpetas{
+list-style: none;
+padding: 0px;
+}
+#menu-carpetas li{
+padding: 0px;
+padding-left: 3px;
+padding-top: 2px;
+margin-bottom: 3px;
+height: 22px;
+font-size: 15px;
+}
+#menu-carpetas li .btn_eliminar_carpeta{
+float:right;
+margin-right:4px; 
+cursor: pointer;
+}
+#menu-carpetas li .inputFolderName{
+  margin-right:4px; 
+  height: 17px;
+  float: left; 
+  width: 80%;
+}
+#menu-carpetas li .subcarpeta{
+  margin-right:4px; 
+  margin-top: 3px;
+  height: 17px;
+  float: left;
+  cursor: pointer;
+} 
+#menu-carpetas li i{
+margin-right: 5px;
+color: rgb(238, 163, 50);
+}
+.custom-file-input:lang(en)~.custom-file-label::after{
+  content: "Subir"!important;
+}
+.nav_lbl_estado{  
+  margin-right:5px;
+  padding: 7px 15px 0px 15px;
+  border-top:2px solid #000000 !important;
+  
+  border-right:2px solid #000000 !important;
+  border-radius: 20px 20px 0px 0px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 18px !important;
+  font-stretch: expanded;
+
+}
+.nav_btn_estado{
+  background: rgb(235, 62, 19) !important;
+  margin-right:5px;
+  padding: 0px 10px 0px 10px !important;
+  border-top:2px solid #000000 !important;  
+  border-right:2px solid #000000 !important;
+  border-radius: 20px 20px 0px 0px;
+ 
+  
+}
+
+.nav_btn_estado:hover{
+  background:#ffffff !important;
+  margin-right:5px;
+  padding: 0px 10px 0px 10px !important;
+  border-top:2px solid #000000 !important;  
+  border-right:2px solid #000000 !important;
+  border-radius: 20px 20px 0px 0px;
+  transition-duration:0.5s;
+}
+
+
+.nav_btn_estado a{color:#ffffff !important;}
+.nav_btn_estado a:hover{color:#000000 !important;}
+
+.content-wrapper {
+background-image: url(img/background.png);
+ background-attachment:fixed;
+ background-size: cover; 
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+.card {
+  min-height: 460px;
+  min-width: 400px;
+  opacity: 0.8;
+}
+.card-title {
+  opacity: 1;
+}
+
+.nav_info_user_right{
+  padding-right: 10px;
+  text-align: right !important;
+}
+
+.lbl_ruta_folder {
+  padding-top: 10px !important;
+  padding-left: 20px !important;
+  border-top:1px solid #cfcfcf !important;
+  border-bottom:1px solid #cfcfcf !important;
+  border-radius: 15px !important;
+  background: #ffffff;
+  margin-bottom: 10px !important;
+  margin-top: -10px !important;
+  color:  rgb(235, 62, 19) !important;
+  
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  margin-top: 19%;
+  flex-shrink: none;
+}
+
+.lbl_dependencia_sidebar{
+  text-align: justify;
+  padding-left: 20px !important;
+}
